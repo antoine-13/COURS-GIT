@@ -4,12 +4,16 @@ window.onresize = function(){
 }
 
 var headerHeight = document.getElementById("header").scrollHeight;
-var img = document.getElementById("image-transition");
 var caractHeight = document.getElementById("caracteristique").scrollHeight;
 var animationDiv = document.getElementById("animation");
 var totalHeight = headerHeight + (caractHeight/1.25);
 var windowHeight = window.innerHeight;
 console.log(windowHeight/2);
+var image1 = document.getElementById("image-1");
+var image2 = document.getElementById("image-2");
+var image3 = document.getElementById("image-3");
+var image4 = document.getElementById("image-4");
+
 function getScroll(){
     var windowHeight = window.innerHeight;
     var headerHeight = document.getElementById("header").scrollHeight;
@@ -25,25 +29,34 @@ window.addEventListener('scroll', () =>{
         animationDiv.style.top = '300px';
 
         if(window.scrollY >= (totalHeight + 250)){
-            img.setAttribute("src", "..\\..\\assets\\img\\YAMAHA_IMG4.jpg");
+            image1.classList.add("hidden");
+            image1.classList.remove("show");
+            image2.classList.add("show");
+            image2.classList.remove("hidden");
 
             if(window.scrollY >= (totalHeight + 500)){
-                img.setAttribute("src", "..\\..\\assets\\img\\YAMAHA_IMG2.jpg");
+                image2.classList.add("hidden");
+                image2.classList.remove("show");
+                image3.classList.add("show");
+                image3.classList.remove("hidden");
 
                 if(window.scrollY >= (totalHeight + 750)){
-                    img.setAttribute("src", "..\\..\\assets\\img\\YAMAHA_IMG3.jpg");
+                    image3.classList.add("hidden");
+                    image3.classList.remove("show");
+                    image4.classList.add("show");
+                    image4.classList.remove("hidden");
                 }
                 else{
-                    img.setAttribute("src", "..\\..\\assets\\img\\YAMAHA_IMG2.jpg");
+                    
                 }
             }
             else{
-                img.setAttribute("src", "..\\..\\assets\\img\\YAMAHA_IMG4.jpg");
+                
             }
         }
-
         else{
-            img.setAttribute("src", "..\\..\\assets\\img\\YAMAHA_IMG5.jpg");
+            
+            
         }
     }
     else if(window.scrollY < totalHeight){

@@ -14,7 +14,19 @@ body{
 #scroll{
     height: 1750px;
 }
-
-#image-transition{
-    transition: 1s ease-in-out;
+.images{
+    transition: slidein;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+@keyframes slidein{
+    0% {opacity: 1;}
+    25%{opacity: 0.5;}
+    50% {opacity: 0.2;}
+    75% {opacity: 0.5;}
+    100% {opacity: 1;}
 }

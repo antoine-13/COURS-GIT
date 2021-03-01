@@ -22,7 +22,10 @@
     </div>
     <div class="block row" id="animation">
         <div class="col s6">
-            <img src="..\..\assets\img\YAMAHA_IMG5.jpg" class="full-image" id="image-transition">
+            <img src="..\..\assets\img\YAMAHA_IMG5.jpg" class="full-image show" id="image-1">
+            <img src="..\..\assets\img\YAMAHA_IMG4.jpg" class="full-image hidden" id="image-2">
+            <img src="..\..\assets\img\YAMAHA_IMG2.jpg" class="full-image hidden" id="image-3">
+            <img src="..\..\assets\img\YAMAHA_IMG3.jpg" class="full-image hidden" id="image-4">
         </div>
         <div class="col s6">
             <h1>Nouvelle YAMAHA R1</h1>
