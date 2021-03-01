@@ -10,5 +10,11 @@ body{
 }
 .full-image{
     width: 100%;
-    
+}
+#scroll{
+    height: 1750px;
+}
+
+#image-transition{
+    transition: 1s ease-in-out;
 }
