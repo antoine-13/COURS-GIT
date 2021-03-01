@@ -1,11 +1,11 @@
 <footer>
-    <ul>
+    <ul id="ul_footer">
         <li>Lorem</li>
         <li>Ipsum</li>
         <li>Dolore</li>
         <li>Cogito</li>
     </ul>
-    <ul>
+    <ul id="ul_footer">
         <li>Lorem</li>
         <li>Ipsum</li>
         <li>Dolore</li>
