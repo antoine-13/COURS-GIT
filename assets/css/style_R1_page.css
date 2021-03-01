@@ -1,0 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.block{
+    height: 500px;
+}
+.full-image{
+    width: 100%;
+    
+}
