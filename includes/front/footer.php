@@ -1,0 +1,14 @@
+<footer>
+    <ul>
+        <li>Lorem</li>
+        <li>Ipsum</li>
+        <li>Dolore</li>
+        <li>Cogito</li>
+    </ul>
+    <ul>
+        <li>Lorem</li>
+        <li>Ipsum</li>
+        <li>Dolore</li>
+        <li>Cogito</li>
+    </ul>
+</footer>
