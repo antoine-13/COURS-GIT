@@ -21,7 +21,7 @@
         </div>
         <div class="carac-container">
             <div class="moteur-container">
-                <h3 class="center-align blue-text moteur-titre">Moteur</h3>
+                <h3 class="center-align moteur-titre">Moteur</h3>
                 <div class="moteur-desc">
                     <div class="row">
                         <p class="titre-carac">Cylindrée</p>
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="chassis-container">
-                <h3 class="center-align">Chassis</h3>
+                <h3 class="center-align moteur-titre">Chassis</h3>
                 <div>
                     
                 </div>
