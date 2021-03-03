@@ -17,24 +17,41 @@
     </div>
     <div class="col s12 block" id="caracteristique">
         <div class="container">
-            <h2 class="center-align">Caracteristiques</h2>
+            <h2 class="center-align titre-div">Caracteristiques</h2>
         </div>
-        <div class="container">
-            <h3 class="center-align blue-text">Moteur</h3>
-            <div>
-                <div class="row">
-                    <p class="">Cylindrée</p>
-                    <p>998 cm³</p>
+        <div class="carac-container">
+            <div class="moteur-container">
+                <h3 class="center-align blue-text moteur-titre">Moteur</h3>
+                <div class="moteur-desc">
+                    <div class="row">
+                        <p class="titre-carac">Cylindrée</p>
+                        <p>998 cm³</p>
+                    </div>
+                    <div class="row">
+                        <p class="titre-carac">Alésage x course</p>
+                        <p>79,0 × 50,9 mm</p>
+                    </div>
+                    <div class="row">
+                        <p class="titre-carac">Taux de compression</p>
+                        <p>13.0:1</p>
+                    </div>
+                    <div class="row">
+                        <p class="titre-carac">Puissance maximale</p>
+                        <p>147,1 kW (200,0 ch) à 13 500 tr/min</p>
+                    </div>
+                    <div class="row">
+                        <p class="titre-carac">Couple maximal</p>
+                        <p>113,3 Nm (11,6 kg-m) à 11 500 tr/min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chassis-container">
+                <h3 class="center-align">Chassis</h3>
+                <div>
+                    
                 </div>
             </div>
         </div>
-        <div class="container">
-            <h3 class="center-align">Chassis</h3>
-            <div>
-                
-            </div>
-        </div>
-        
     </div>
     <div class="block row" id="animation">
         <div class="col s6 images-container">
