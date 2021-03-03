@@ -1,4 +1,4 @@
-<img class="logo" src="./assets/img/moto.png" alt="logo">
+<img class="logo" src="/assets/img/logo.png" alt="logo">
 <nav>
     <ul class="nav_links">
         <li><a href="./presentation.php">Presentation</a></li>
