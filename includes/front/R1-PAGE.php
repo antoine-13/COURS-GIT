@@ -60,7 +60,7 @@
             <img src="..\..\assets\img\YAMAHA_IMG2.jpg" class="full-image images" id="image-3">
             <img src="..\..\assets\img\YAMAHA_IMG3.jpg" class="full-image images" id="image-4">
         </div>
-        <div class="col s6">
+        <div class="col s6 titre-anim">
             <h1>Nouvelle YAMAHA R1</h1>
         </div>
     </div>
