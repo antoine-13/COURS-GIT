@@ -15,24 +15,33 @@
     <div class="row" id="header">
         <img src="..\..\assets\img\YAMAHA_IMG1.jpg" class="full-image">
     </div>
-    <div class="col s12 grey lighten-5 block" id="caracteristique">
-        <div class="row">
-
-            <h1>Caractéristiques</h1>
+    <div class="col s12 block" id="caracteristique">
+        <div class="container">
+            <h2 class="center-align">Caracteristiques</h2>
         </div>
-        <div class="row">
+        <div class="container">
+            <h3 class="center-align blue-text">Moteur</h3>
+            <div>
+                <div class="row">
+                    <p class="">Cylindrée</p>
+                    <p>998 cm³</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="center-align">Chassis</h3>
+            <div>
                 
+            </div>
         </div>
-        <div class="col s6">
-
-        </div>
+        
     </div>
     <div class="block row" id="animation">
         <div class="col s6 images-container">
             <img src="..\..\assets\img\YAMAHA_IMG5.jpg" class="full-image show images" id="image-1">
-            <img src="..\..\assets\img\YAMAHA_IMG4.jpg" class="full-image hidden images" id="image-2">
-            <img src="..\..\assets\img\YAMAHA_IMG2.jpg" class="full-image hidden images" id="image-3">
-            <img src="..\..\assets\img\YAMAHA_IMG3.jpg" class="full-image hidden images" id="image-4">
+            <img src="..\..\assets\img\YAMAHA_IMG4.jpg" class="full-image images" id="image-2">
+            <img src="..\..\assets\img\YAMAHA_IMG2.jpg" class="full-image images" id="image-3">
+            <img src="..\..\assets\img\YAMAHA_IMG3.jpg" class="full-image images" id="image-4">
         </div>
         <div class="col s6">
             <h1>Nouvelle YAMAHA R1</h1>
