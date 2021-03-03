@@ -1,10 +1,9 @@
 <img class="logo" src="./assets/img/moto.png" alt="logo">
 <nav>
     <ul class="nav_links">
-        <li><a href="./presentation.php">Presentation</a></li>
-        <li><a href="">Antoine</a></li>
-        <li><a href="">Cedric</a></li>
-        <li><a href="">Alex</a></li>
-        <li><a href="">Oualid</a></li>
+        <li><a href="./moto_presentation.php">Moto presentation</a></li>
+        <li><a href="./R1-PAGE.php">R1</a></li>
+        <li><a href="./KTM.php">KTM1290R</a></li>
+        <li><a href="./nc700s.php">NC700S</a></li>
     </ul>
 </nav>
