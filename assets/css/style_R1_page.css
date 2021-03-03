@@ -4,29 +4,94 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
-.block{
-    height: 500px;
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.titre-div{
+    margin: 0!important;
+    color: #444444;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 .full-image{
     width: 100%;
 }
 #scroll{
-    height: 1750px;
-}
-.images{
-    transition: slidein;
-}
-.hidden{
+    height: 400vh;
     display: none;
 }
-.show{
+#caracteristique{
+    height: 50vh;
+}
+.titre-carac{
+    font-weight: bold;
+    margin-right: 15px;
+}
+#animation{
+    height: 100vh;
+    width: 100%;
+    transition: all 1s ease-in-out;
     display: block;
 }
-@keyframes slidein{
-    0% {opacity: 1;}
-    25%{opacity: 0.5;}
-    50% {opacity: 0.2;}
-    75% {opacity: 0.5;}
-    100% {opacity: 1;}
+.images-container{
+    position: relative;
+    height: 50%;
+}
+.images{
+    opacity: 0;
+    transition: opacity 1s linear;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.show{
+    opacity: 1!important;  
+}
+.moteur-desc{
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+.moteur-desc > .row{
+    margin: 0!important;
+}
+.moteur-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.chassis-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.carac-container{
+    display: flex;
+    flex-direction: row;
+}
+.titre-anim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    color: #444444;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+h1{
+    transition: all 1s ease;
+}
+.moteur-titre{
+    color: #FFFFFF;
+    background: #b8b8b8;
+    text-shadow: 4px 3px 0 #7A7A7A;
 }
