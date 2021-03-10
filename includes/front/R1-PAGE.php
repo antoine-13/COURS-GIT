@@ -11,6 +11,12 @@
     <title>YAMAHA R1</title>
 </head>
 <body>
+    <header>
+        <?php
+            include_once("header.php");
+        ?>
+
+    </header>
 
     <div class="row" id="header">
         <img src="..\..\assets\img\YAMAHA_IMG1.jpg" class="full-image">

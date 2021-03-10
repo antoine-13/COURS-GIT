@@ -7,6 +7,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
+    <header>
+        <?php
+            include_once("header.php");
+        ?>
+
+    </header>
     <div class="top">
         <img src="C:\Users\cedri\OneDrive\Bureau\COURS-GIT\assets\img\logo.png" width="25%"/>
     </div>
