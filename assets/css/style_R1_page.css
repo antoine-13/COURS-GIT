@@ -4,6 +4,19 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+header{
+    display: flex !important;
+    flex-direction: row i !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+nav{
+    padding-right: 100px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+    color: #444444 !important;
+}
 .row{
     display: flex;
     flex-direction: row;
